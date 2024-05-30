@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         显示中国保密在线考试答案
 // @namespace    https://github.com/jiang-taibai/show_baomi_answer
-// @version      v1.0.0-2024-05-30
+// @version      v1.0.1-2024-05-30
 // @description  显示中国保密在线考试答案的脚本，用黄色突出正确选项
 // @author       CoderJiang
 // @match        http://www.baomi.org.cn/*
