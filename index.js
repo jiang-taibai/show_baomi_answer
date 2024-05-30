@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         显示中国保密在线考试答案
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/jiang-taibai/show_baomi_answer
 // @version      v1.0.0-2024-05-30
-// @description  显示中国保密在线考试答案
+// @description  显示中国保密在线考试答案的脚本，用黄色突出正确选项
 // @author       CoderJiang
 // @match        http://www.baomi.org.cn/bmExam?*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=baomi.org.cn
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
+// @license      MIT
 // ==/UserScript==
 
 (function () {
