@@ -2,7 +2,7 @@
 
 显示中国保密在线考试答案的脚本，用黄色突出正确选项
 
-![cover.png](res/cover.png)
+![cover.png](res/cover-a.png)
 
 # 2. 安装
 
