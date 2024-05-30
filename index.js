@@ -4,7 +4,7 @@
 // @version      v1.0.0-2024-05-30
 // @description  显示中国保密在线考试答案的脚本，用黄色突出正确选项
 // @author       CoderJiang
-// @match        http://www.baomi.org.cn/bmExam?*
+// @match        http://www.baomi.org.cn/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=baomi.org.cn
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
@@ -37,7 +37,7 @@
             const quesOptionsBox = quesOptionsBoxes[i];
             const ansIndex = answers[i];
             const option = quesOptionsBox.querySelectorAll('label')[ansIndex];
-            option.style.backgroundColor = 'yellow';
+            option.style.backgroundColor = '#abc89a';
         }
     }
 
