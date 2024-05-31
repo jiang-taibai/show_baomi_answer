@@ -5,6 +5,7 @@
 // @description  显示中国保密在线考试答案的脚本，用黄色突出正确选项
 // @author       CoderJiang
 // @match        http://www.baomi.org.cn/*
+// @match        https://www.baomi.org.cn/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=baomi.org.cn
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
@@ -48,7 +49,7 @@
             console.debug(url)
             const examId = url.split('examId=')[1].split('&')[0];
             const randomId = url.split('randomId=')[1];
-            const apiUrl = `http://www.baomi.org.cn/portal/main-api/v2/activity/exam/getExamContentData.do?examId=${examId}&randomId=${randomId}`;
+            const apiUrl = `https://www.baomi.org.cn/portal/main-api/v2/activity/exam/getExamContentData.do?examId=${examId}&randomId=${randomId}`;
             GM_xmlhttpRequest({
                 method: "GET",
                 url: apiUrl,
